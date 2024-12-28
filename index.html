@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Changer</title>
+    <link rel="stylesheet" href="sytle.css">
+
+</head>
+<body>
+<div class="container">
+   <h1>Change the CSS of below image! with the help of the Sliders</h1>
+   <span id="heading">
+    Javascript
+   </span>
+<div class="css-changer">
+    <label for="base">Base Color</label>
+    <input type="color" name="base" id="base"  value="#c6cf76">
+    <label for="width" >Width</label>
+    <input type="range" id="width " name="width" value="50%" min="0" max="100" data-sizing="%">
+    <label for="border-radius" >Border-Radius</label>
+    <input type="range" id="border-radius " name="border-radius" value="5" min="0" max="100" data-sizing="px">
+    <label for="padding" >Padding</label>
+    <input type="range" id="padding " name="padding" value="0" min="10" max="200" data-sizing="px">
+    <label for="blur" >Blur</label>
+    <input type="range" id="blur " name="blur" value="0" min="0" max="25" data-sizing="px">
+
+</div>
+<img src="bird.jpg" alt="">
+</div>
+<script src="script.js"></script>
+</body>
+</html>
